@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/
+
+# Data
+data/raw/
+data/processed/
+
+# Large model artifacts
+models/embeddings/
+models/distilbert_product_model/
+
+# Streamlit secrets
+.streamlit/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
